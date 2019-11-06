@@ -1,5 +1,5 @@
 import unittest
-from double import double
+from ... import double
 
 
 class TestDouble(unittest.TestCase):
