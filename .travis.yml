@@ -9,4 +9,4 @@ install:
 script:
   - python hello.py
 
-  - py.test -v -rs test_double.py
+  - py.test -v -rs integration_test
