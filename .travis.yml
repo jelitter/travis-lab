@@ -3,5 +3,10 @@ language: python
 python:
   - '2.7'
 
+install:
+  - pip install pytest
+
 script:
   - python hello.py
+
+  - py.test -v -rs test_double.py
