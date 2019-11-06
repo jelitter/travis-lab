@@ -14,3 +14,11 @@ class TestDouble(unittest.TestCase):
         res = double(num)
         # Assert
         self.assertEqual(res, 4)
+
+    def test_0_should_return_0(self):
+            # Arrange
+        num = 0
+        # Act
+        res = double(num)
+        # Assert
+        self.assertEqual(res, 0)
